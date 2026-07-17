@@ -1,0 +1,8 @@
+Student 1
+ID: 101
+Name: Garima
+Phone: 9812556644
+Course: IOT
+Fee: 500000
+Remarks: Good
+------------------------
