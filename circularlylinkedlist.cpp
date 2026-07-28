@@ -11,9 +11,15 @@ int main()
 {
     Node* first = new Node{1, nullptr};
     Node* second = new Node{2, nullptr};
+    Node* third = new Node{3, nullptr};
+    Node* fourth = new Node{4, nullptr};
+
+
 
     first->next = second;
-    second->next = first;
+    second->next = third;
+    third->next = fourth;
+    fourth->next = first;
 
-    cout << first->next->data;
+    cout << third->next->data;
 }
